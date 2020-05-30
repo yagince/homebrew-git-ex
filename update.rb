@@ -1,7 +1,7 @@
 require 'openssl'
 require 'open-uri'
 
-version = "v0.1.4"
+version = "v0.1.5"
 targets = ["x86_64-apple-darwin", "x86_64-unknown-linux-musl"]
 
 digests = targets.map{|x|
